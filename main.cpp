@@ -11,4 +11,11 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "FTD2XX.h"
+#include "ftd2xx.h"
+
+int main( int argc, char **argv ) {
+  cout( "Select and option from the list below.\n\n" );
+  cout( "1: Single Read\n" );
+  cout( "2: Timed Read\n" );
+  cout( "3: Log Data\n" );
+}
